@@ -1,5 +1,5 @@
 // Sessions
-export const sessionKey = (sessionId: string) => `sessions:#${sessionId}`;
+export const sessionsKey = (sessionId: string) => `sessions:#${sessionId}`;
  
 // Cache
 export const pageCacheKey = (id: string) => `pagecache#${id}`
